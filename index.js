@@ -3,7 +3,7 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const version = '2.0.0';
 
 let css = '';
-let styleEl, el;
+let styleEl;
 
 const updateCSS = (c) => {
   styleEl.innerHTML = '';
@@ -32,7 +32,7 @@ goosemodHandlers: {
       {
         type: 'custom',
         element: () => {
-          el = document.createElement('div');
+          const el = document.createElement('div');
     
           el.id = 'gm-editor';
 
