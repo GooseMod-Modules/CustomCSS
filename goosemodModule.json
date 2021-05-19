@@ -1,0 +1,10 @@
+{
+  "name": "Custom CSS",
+  "description": "Allows entering of your own custom CSS in a code editor (Ace)",
+  "version": "2.0.0",
+  "authors": ["506482395269169153"],
+  "tags": [
+    "backend"
+  ],
+  "main": "index.js"
+}
