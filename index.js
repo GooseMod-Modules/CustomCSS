@@ -30,6 +30,13 @@ goosemodHandlers: {
       `(v${version})`,
       
       {
+        type: 'header',
+        text: 'Add your own Custom CSS here:'
+        
+      },
+      
+      {
+      
         type: 'custom',
         element: () => {
           const el = document.createElement('div');
